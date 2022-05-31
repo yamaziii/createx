@@ -1,0 +1,38 @@
+@import "./normalize/normalize.scss";
+@import "./button.scss";
+.bg {
+  background: $mainBg;
+}
+// header
+.header {
+  margin-top: 1.25rem;
+  &-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left {
+      display: flex;
+      align-items: center;
+      .header-link {
+        margin-right: 3.75rem;
+        img {
+        }
+      }
+      .header-list {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        &__item {
+          .nav-link {
+            font-weight: 700;
+            color: $secondcolor;
+          }
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
