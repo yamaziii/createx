@@ -1,0 +1,10 @@
+@import "../css/variable.scss";
+
+@import "..//mixin/mixin.scss";
+.btn {
+  @include btn-mx(4px, 0.5px);
+  @media (max-width: $xxl) {
+    padding: 5px 8px;
+    font-size: 16px;
+  }
+}

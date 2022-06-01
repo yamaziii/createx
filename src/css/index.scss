@@ -1,49 +1,10 @@
 @import "./normalize/normalize.scss";
-@import "./button.scss";
+@import "./components/button.scss";
+
 .bg {
   background: $mainBg;
+  padding-bottom: 5rem;
 }
-// header
-.header {
-  margin-top: 1.25rem;
-  &-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    &__left {
-      display: flex;
-      align-items: center;
-      .header-link {
-        margin-right: 3.75rem;
-        img {
-        }
-      }
-      .header-list {
-        display: flex;
-        align-items: center;
-        gap: 2.5rem;
-        &__item {
-          .nav-link {
-            font-weight: 700;
-            color: $secondcolor;
-          }
-        }
-      }
-    }
-    &__right {
-      display: flex;
-      align-items: center;
-    }
-  }
-}
-.title {
-  &__logo {
-    margin-top: 15.25rem;
-    width: 88px;
-    height: 21px;
-    top: 244px;
-    left: 413px;
-  }
-  &__subtitle {
-  }
-}
+
+@import "./components/header.scss";
+@import "./components/createx.scss";

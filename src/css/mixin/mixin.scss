@@ -1,0 +1,8 @@
+@mixin btn-mx($n, $spacing, $a) {
+  padding: 1.25rem 2.5rem;
+  border-radius: $n + $a;
+  letter-spacing: $spacing;
+  font-weight: 700;
+  background: $btn;
+  color: $textColor;
+}
